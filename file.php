@@ -1,93 +1,66 @@
 <?php
 
+
 //Example 1
-class Car {
-//class body
-	//class body
-		//class body
-}
-
-class Hat {
-//class body
-	//class body
-		//class body
-}
-
-class Person {
-//class body
-	//class body
-		//class body
-}
-
-
-
-
-
-
-//Example 2
 class Kim {
-	public $firstName = “default name”;
-	public $lastName = “default last name”;
-	public $gender = “male”;
+	public $firstName = "default name";
+	public $lastName = "default last name";
+	public $gender = "male";
 	public $price = 0;
 function getName() {
-			return “{$this>firstName}” .“{$this>lastName}”;
+			return "{$this>firstName}" ."{$this>lastName}";
 			
 			}
 	}
 
 $Kim1 = new Kim();
 $Kim1>
-firstName = “Kim”;
+firstName = "Kim";
 $Kim1>
-lastName = “Jong-Un”;
-print “The Persons’s name is {$People1>getName()}.”;
+lastName = "Jong-Un";
+print "The Persons's name is {$People1>getName()}.";
 
-
+//EXAMPLE 2
 class Ryan {
-		public $firstName = “default name”;
-		public $lastName = “default last name”;
-		public $gender = “male”;
+		public $firstName = "default name";
+		public $lastName = "default last name";
+		public $gender = "male";
 		public $price = 0;
 function getName() {
-				return “{$this>firstName}” .“{$this>lastName}”;
+				return "{$this>firstName}" ."{$this>lastName}";
 			
 			}
 	}
 
 $Ryan1 = new People();
-$Ryan1>
-firstName = “Ryan”;
-$Ryan1>
-lastName = “Ryanian”;
-print “The humans name is {$Ryan1>getName()}.”;
+$Ryan1>firstName = "Ryan";
+$Ryan1>lastName = "Ryanian";
+print "The humans name is {$Ryan1>getName()}.";
 
 
-
+//EXAMPLE 3
 class Luke {
-		public $firstName = “default name”;
-		public $lastName = “default last name”;
-		public $gender = “male”;
+		public $firstName = "default name";
+		public $lastName = "default last name";
+		public $gender = "male";
 		public $price = 0;
 function getName() {
-			return “{$this>firstName}” .“{$this>lastName}”;
+			return "{$this>firstName}" ."{$this>lastName}";
 			
 			}
 	}
 $Luke1 = new Luke();
-$Luke1>
-firstName = “Luke”;$Luke1>
-lastName = “Lukian”;
-print “The Persons’s name is {$Luke1>getName()}.”;
+$Luke1>firstName = "Luke";$Luke1>lastName = "Lukian";
+print "The Persons’s name is {$Luke1>getName()}.";
 
 
 
 
 
 
+//LECTURE 2
 
-
-
+	//EXAMPLE 1
 class cheese{
 		public first = $first;
 		public middle = $middle;
@@ -102,7 +75,9 @@ class cheese{
 			return "{$this->first}" . "{$this->last}";
 		}
 	}
-	
+	$cheese1 = newcheese("Ryan","R","Ryanian");
+	print "cheese1: {$cheese1->getcheese()}";
+		//EXAMPLE 2
 	class sizes{
 		public fierce = $fire;
 		public roar = $room;
@@ -117,6 +92,10 @@ class cheese{
 			return "{$this->fire}" . "{$this->house}";
 		}
 	}
+	$sizes1 = newsizes("Big","Small","Huge");
+	print "sizes1: {$sizes1->getsizes()}";
+
+	//EXAMPLE 3
 	class words{
 		public movie = $movie;
 		public commercial = $commercial;
@@ -131,13 +110,6 @@ class cheese{
 			return "{$this->movie}" . "{$this->show}";
 		}
 	}
-
-	
-	$cheese1 = newcheese("Ryan","R","Ryanian");
-	print "cheese1: {$cheese1->getcheese()}";
-	
-	$sizes1 = newsizes("Big","Small","Huge");
-	print "sizes1: {$sizes1->getsizes()}";
 	
 	$words1 = newwords("Hello","How","Are You");
 	print "words1: {$words1->newwords()}";
