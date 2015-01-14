@@ -17,3 +17,4 @@ class Jew {
 $Jewish = newJew(','yamaca', my rel');
 echo $Jewish->yamaka();
 
+
